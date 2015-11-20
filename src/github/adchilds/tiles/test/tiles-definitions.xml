@@ -1,0 +1,30 @@
+<tiles-definitions>
+
+    <!-- Test Tiles definition -->
+    <definition name="testTemplate" template="base.html">
+        <put-attribute name="title" value="Golang Tiles Implementation 1" />
+        <put-attribute name="meta" value="meta.html" />
+        <put-attribute name="styles" value="styles.html" />
+        <put-attribute name="scripts" value="scripts.html" />
+        <put-attribute name="bodyContent" value="bodycontent.html" />
+    </definition>
+
+    <!-- Test Tiles definition -->
+    <definition name="testTemplate3" template="base.html">
+        <put-attribute name="title" value="Golang Tiles Implementation 2" />
+        <put-attribute name="meta" value="meta.html" />
+        <put-attribute name="styles" value="styles.html" />
+        <put-attribute name="scripts" value="scripts.html" />
+        <put-attribute name="bodyContent" value="bodycontent.html" />
+    </definition>
+
+    <!-- Test Tiles definition -->
+    <definition name="testTemplate4" template="base.html">
+        <put-attribute name="title" value="Golang Tiles Implementation 3" />
+        <put-attribute name="meta" value="meta.html" />
+        <put-attribute name="styles" value="styles.html" />
+        <put-attribute name="scripts" value="scripts.html" />
+        <put-attribute name="bodyContent" value="bodycontent.html" />
+    </definition>
+
+</tiles-definitions>
