@@ -4,6 +4,7 @@ package tiles
 import (
 	"testing"
 	"path/filepath"
+	"fmt"
 )
 
 // Render the test template
@@ -62,6 +63,8 @@ func TestRender_valid(t *testing.T) {
 	assertDoesNotHaveError(err, t)
 	assertNotEmpty(renderedTemplate, t)
 	assertEquals(expectedData, renderedTemplate, t)
+
+	fmt.Println(renderedTemplate)
 }
 
 // Simple wrapper to assert that the given string is empty
@@ -104,7 +107,7 @@ var expectedData = `<html>
     <head>
 
         <!-- Page title -->
-        Golang Tiles Implementation 1
+        <title>Golang Tiles Implementation 1</title>
 
         <!-- metas, styles, scripts -->
         <meta charset="UTF-8">
